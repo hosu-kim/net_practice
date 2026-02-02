@@ -12,3 +12,37 @@ Throughout the 10 levels of exercises, I have learned to:
 
 The project focuses on solving non-functioning network diagrams by identifying configuration errors,
 such as invalid IP ranges, missing routes, or incorrect masks, and correcting them to achieve specific connectivity goals.
+
+# Instructions
+This section explains how to run the training interface, export your configurations, and the requirements for a successful submission.
+
+1. **Runnning the Training Interface**
+The project provides a web-based training interface. To run it locally:
+  - **Prerequisites**: Use **Google Chrome** or a **Chromium-based browser**. Firefox is known to have compatibility issues with this tool.
+  - **Extraction**: Unzip the provided project file using the following command:
+```bash
+tar -xvzf net_practice.1.8.tgz
+```
+  - **Execution**: Navigate to the extracted folder and open the `index.html` file in your browser.
+
+2. **How to practice**
+  1. **Login**: Enter your 42 intra login in the designated field to use your personal configuration.
+  2. **Solving Levels**: Analyze the network diagrams and modify the unshaded fields (IP addresses, Subnet masks, etc.) to meet the goals displayed at the top.
+  3. **Verification**: Click the **[Check again[** button to verify if your network functions correctly.
+  4. **Log Analysis**: If the configuration fails, check the logs at the bottom of the page to identify issues like invalid IPs or missing gateways.
+  
+3. **Exporting and Submission**
+  - **Exporting**: Once a level is successfully completed, click the **[Get my config]** button. This will download a configuration file for that specific level.
+  - **Requirements**:
+    - You must complete all **10 levels**.
+    - Each level must have its own export file.
+    - All 10 files must be placed at the **root of your Git repository**.
+  - Fianl Structure:
+  ```Plaintext
+  .
+├── level_1
+├── level_2
+...
+├── level_10
+└── README.md
+```

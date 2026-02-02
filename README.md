@@ -63,9 +63,9 @@ To solve the 10 levels of NetPractice, a deep understanding of the following con
     - **Routers and Switches**:
         - **Switches**: Connect devices within the same network (Layer 2).
         - **Routers**: Connect different networks and route traffic between them (Layer 3).
-    - **OSI Model**: A 7-layer framework for understanding how data moves from one computer's application to another's.
-    - **OSI Model**:
-    **OSI Model: The Postal Service Analogy** To understand the complex process of network communication, it is helpful to visualize it as a 7-step delivery system. While I studied all seven layers, my focus in NetPractice was on the "Addressing and Routing" steps (Layers 2 & 3).
+    - **OSI Model: The Postal Service Analogy**
+
+      To understand the complex process of network communication, it is helpful to visualize it as a 7-step delivery system. While I studied all seven layers, my focus in NetPractice was on the "Addressing and Routing" steps (Layers 2 & 3).
 
         - **Layer 7 (Application): Writing the Letter** The user creates data (like writing a message).
         - **Layer 6 (Presentation): Translation & Packaging** Ensuring the data is in a format the receiver can read (like translating the letter or encrypting it).

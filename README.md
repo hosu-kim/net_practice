@@ -65,14 +65,15 @@ To solve the 10 levels of NetPractice, a deep understanding of the following con
         - **Routers**: Connect different networks and route traffic between them (Layer 3).
     - **OSI Model**: A 7-layer framework for understanding how data moves from one computer's application to another's.
     - **OSI Model**:
-    To understand how data moves through a network, I studied the OSI (Open Systems Interconnection) model. While the model consists of seven layers, this project specifically focuses on the layers responsible for addressing and routing.
-        - Layer 7 (Application): Network processes to applications (HTTP, FTP, etc.).
-        - Layer 6 (Presentation): Data representation and encryption.
-        - Layer 5 (Session): Interhost communication.
-        - Layer 4 (Transport): End-to-end connections and reliability (TCP, UDP).
-        - Layer 3 (Network): [Focus of NetPractice] Path determination and logical addressing (IP). This layer is where Routers operate.
-        - Layer 2 (Data Link): [Focus of NetPractice] Physical addressing and data framing. This layer is where Switches and MAC addresses operate.
-        - Layer 1 (Physical): Media, signal, and binary transmission.
+    **OSI Model: The Postal Service Analogy** To understand the complex process of network communication, it is helpful to visualize it as a 7-step delivery system. While I studied all seven layers, my focus in NetPractice was on the "Addressing and Routing" steps (Layers 2 & 3).
+
+        - **Layer 7 (Application)**: Writing the Letter** The user creates data (like writing a message).
+        - **Layer 6 (Presentation): Translation & Packaging** Ensuring the data is in a format the receiver can read (like translating the letter or encrypting it).
+        - **Layer 5 (Session): Starting the Conversation** Establishing a connection between the sender and receiver.
+        - **Layer 4 (Transport): Reliability Check** Breaking the letter into smaller pieces if it's too big and making sure every piece arrives safely (TCP/UDP).
+        - **Layer 3 (Network): The Address on the Envelope [Focus of NetPractice]** Writing the **IP Address** on the package. **Routers** use this to decide which "city" (network) the package should go to.
+        - **Layer 2 (Data Link): The Local Delivery Hub [Focus of NetPractice]** Using **Switches** and MAC addresses to deliver the package from the local post office to the specific house in the neighborhood.
+        - **Layer 1 (Physical): The Delivery Truck** The actual wires, fiber optics, and electrical signals that carry the data.
     
 2. **Reference Materials**
     - [Wikipedia - IP Subnetwork](https://en.wikipedia.org/wiki/Subnet)

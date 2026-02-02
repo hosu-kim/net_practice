@@ -28,7 +28,7 @@ The project provides a web-based training interface. To run it locally:
 2. **How to practice**
     1. **Login**: Enter your 42 intra login in the designated field to use your personal configuration.
     2. **Solving Levels**: Analyze the network diagrams and modify the unshaded fields (IP addresses, Subnet masks, etc.) to meet the goals displayed at the top.
-    3. **Verification**: Click the **[Check again[** button to verify if your network functions correctly.
+    3. **Verification**: Click the **[Check again]** button to verify if your network functions correctly.
     4. **Log Analysis**: If the configuration fails, check the logs at the bottom of the page to identify issues like invalid IPs or missing gateways.
   
 3. **Exporting and Submission**
@@ -55,7 +55,7 @@ To solve the 10 levels of NetPractice, a deep understanding of the following con
     - **TCP/IP Addressing**: The standard suite of protocols for connecting devices on the internet.
     - **Subnet Mask & CIDR**: Used to divide an IP address into network and host portions.
         - *Example*: In `162.168.0.1/25`, the mask defines the range of available hosts.
-    - **Network & Broadcast Address*:
+    - **Network & Broadcast Address**:
         - **Network Address**: The first address in a block (e.g., `162.168.0.0`), representing the network itself.
         - **Broadcast Address**: The last address in a block (e.g., `162.168.0.127`), used to send data to all hosts in the subnet.
     - **Default Gateway**: The ""exit point" for a device to communicate with nodes outside its local subnet, typically a router interface.

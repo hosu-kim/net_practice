@@ -1,4 +1,4 @@
-This project has been created as part of the 42 curriculum by hoskim
+*This project has been created as part of the 42 curriculum by hoskim*
 
 # Description
 This project is a practical introduction to the fundamentals of computer **networking**.
